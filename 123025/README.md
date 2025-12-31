@@ -14,10 +14,17 @@ Grab these folders:
 # for example, if you use theowaf folder, do something like this:
 # cd ~/Documents/TheoWAF/class7/AWS/Terraform
 
-git clone --no-checkout https://github.com/aaron-dm-mcdonald/Class7-notes.git .
+git clone --no-checkout https://github.com/aaron-dm-mcdonald/Class7-notes.git
+cd Class7-notes
+
 git sparse-checkout init --cone
 git sparse-checkout set 123025/syntax-demo 123025/simple-code-no-refactor
+
 git checkout
+
+# then rename the folder that gets created 
+# sort of a complicated way but its the best I came up with 
+
 ```
 
 ---
